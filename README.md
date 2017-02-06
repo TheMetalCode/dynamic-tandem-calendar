@@ -41,3 +41,8 @@ Once you're satisfied with the look, feel free to deploy the above html, along w
 ###Contributing
 
 If you'd like to contribute, make sure to lint (via `npm test`) and compile (via `npm run build`) before submitting a pull request.
+
+###Real World Usage
+
+- [Mark Twain Elementary PTSA - Home Page](http://twainptsa.org/Home) (weekly calendar view)
+- [Mark Twain Elementary PTSA - Monthly Calendar](http://twainptsa.org/Page/Calendar/Calendar)

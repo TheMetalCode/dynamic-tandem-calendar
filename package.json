@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-tandem-calendar",
+  "version": "1.0.0",
+  "description": "Script that builds an iframe of your organization's Tandem calendar, automatically set to current month and year",
+  "main": "lib/dynamic-tandem-calendar.js",
+  "scripts": {
+    "test": "eslint lib/*.js",
+    "build": "uglifyjs lib/dynamic-tandem-calendar.js --compress --output dist/dynamic-tandem-calendar.min.js --source-map dist/dynamic-tandem-calendar.map.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheMetalCode/dynamic-tandem-calendar.git"
+  },
+  "author": "Jason Hagglund <hagglundized@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMetalCode/dynamic-tandem-calendar/issues"
+  },
+  "homepage": "https://github.com/TheMetalCode/dynamic-tandem-calendar#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "uglify-js": "^2.7.5"
+  }
+}

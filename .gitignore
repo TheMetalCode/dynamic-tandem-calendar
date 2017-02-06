@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+node_modules
+s3-deploy
+dist/*.html

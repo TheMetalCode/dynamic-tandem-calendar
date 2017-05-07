@@ -10,7 +10,7 @@ Let's say:
 
 If the above describes your situation, the dynamic-tandem-calendar script is for you.
 
-###Usage
+### Usage
 
 Given your predicament, one thing you might do is host a basic html page externally (on an AWS S3 bucket configured for public website hosting, for example) that consumes this script, and then iframe that external site into a page managed by your CMS.
 
@@ -38,11 +38,11 @@ Feel free to use inline styling to size and style the containing div in the body
 
 Once you're satisfied with the look, feel free to deploy the above html, along with `dynamic-tandem-calendar.min.js` and `dynamic-tandem-calendar.map.js` to your external location of choice. 
 
-###Contributing
+### Contributing
 
 If you'd like to contribute, make sure to lint (via `npm test`) and compile (via `npm run build`) before submitting a pull request.
 
-###Real World Usage
+### Real World Usage
 
 - [Mark Twain Elementary PTSA - Home Page](http://twainptsa.org/Home) (weekly calendar view)
 - [Mark Twain Elementary PTSA - Monthly Calendar](http://twainptsa.org/Page/Calendar/Calendar)

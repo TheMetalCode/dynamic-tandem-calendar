@@ -1,6 +1,6 @@
 {
   "name": "dynamic-tandem-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script that builds an iframe of your organization's Tandem calendar, automatically set to current month and year",
   "main": "lib/dynamic-tandem-calendar.js",
   "scripts": {
